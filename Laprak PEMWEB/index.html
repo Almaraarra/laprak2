@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAPORAN PRAKTIKUM 2</title>
+    <link rel="stylesheet" href="aset/style.css" type="text/css">
+</head>
+<body class="putih">
+    <header> 
+        <h1><b>Laporan Teori</b></h1>
+        <h2><b>Almara | 202331158</b></h2>
+        <button class="switch" onclick="berubah()"> berubah </button>
+    </header>
+
+    <div class="soal">
+        <ol>
+                <h3 onclick="sembunyi()"><b>Bagaimana penggunaan dan pengintegrasian HTML, CSS, dan JavaScript dalam pemrograman web?</b></h3>
+                <ol class="hilang" id="hill">
+                    <li onclick="html()" class="list"><b>HTML</b></li> 
+                    <p class="html" id="htm"> 
+                        HTML atau <i> Hyper-Text Markup Language </i>adalah bahasa struktur untuk menandai bagian-bagian dari sebuah halaman atau bahasa standar yang di gunakan untuk membuat atau merancang suatu halaman web.
+                        HTML ini disebut juga sebagai bahasa markup yang memungkinkan pengembang untuk menjelaskan elemen-elemen seperti paragraf, heading, gambar, tautan, tabel, dan lain sebagainya.
+                        Kode HTML pada konten biasanya menggunakan elemen <b> < h1>`</b>` untuk judul utama, <b> < p>`</b>` untuk paragraf, dan <b>`< a>`</b> untuk tautan, yang membantu dalam SEO (<i>Search Engine Optimization</i>) dan aksesibilitas.
+                    </p>
+                    <li onclick="css()" class="list"><b>CSS</b></li>
+                    <p class="css" id="css"> 
+                        CSS atau <i> Cascading Style Sheets </i> digunakan untuk melengkapi HTML dengan memberikan tampilan dan nuansa ke halaman web, di mana kita bisa menambahkan warna, font, ukuran, margin, padding, dan banyak lagi aspek lain dari elemen HTML.
+                        Selain itu, CSS memungkinkan kita dalam pembuatan desain responsif yang dapat disesuaikan untuk tampilan halaman web di berbagai perangkat, seperti desktop, tablet, dan ponsel.
+                        Konten HTML bisa dipisahkan dengan tampilan CSS sehingga lebih memudahkakan kita dalam melakukan pengembangan dan pemeliharaan.
+                        Mengintegrasikan CSS dalam pemrograman web bisa dilakukan dalam bentuk file terpisah (seperti `styles.css`) atau di dalam tag <b> < style>`</b> di dalam bagian <b> `< head>`</b> HTML.
+                    </p>
+                    <li onclick="javascript()" class="list"><b>JavaScript</b></li> 
+                    <p class="java" id="javascript"> 
+                        JavaScript adalah bahasa yang berbentuk kumpulan skrip yang pada fungsinya berjalan pada suatu dokumen HTML, digunakan untuk menambahkan interaktivitas pada halaman web.
+                        Dengan JavaScript, pengembang bisa menciptakan elemen yang responsif terhadap tindakan pengguna, seperti klik, hover, dan input. Selain itu, JavaScript memungkinkan pengembang
+                        untuk mengubah konten dan struktur halaman secara dinamis tanpa perlu memuat ulang halaman.
+                        JavaScript juga bisa digunakan untuk menambahkan fungsionalitas yang lebih kompleks, seperti validasi formulir, animasi, dan pengambilan data dari server.
+                        Cara pengintegrasian JavaScript dalam pemrograman web bida  dalam bentuk file terpisah (seperti <i>`script.js`</i>) atau di dalam tag <b>`< script>` </b> di bagian bawah <b>`< body>`</b>.
+                    </p> 
+                </ol>
+        </ol>
+    </div>
+
+    <script src="aset/script.js"></script>
+</body>
+</html>

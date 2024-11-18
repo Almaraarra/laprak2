@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.soal {
+    padding: 1cm;
+}
+
+body.putih {
+    background-color: aliceblue;
+    color: black;
+}
+
+body.putih header {
+    background-color: #eba3af;
+    padding-bottom: 40px;
+}
+
+body.putih .switch {
+    float: right;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F4C2C2;
+    color: rgb(11, 10, 10);
+    cursor: pointer;
+}
+
+body.putih p {
+    text-align: justify;
+    padding: 15px;
+    background-color: #F4C2C2;
+    border-radius: 0.3cm;
+    color: rgb(11, 10, 10);
+}
+
+body.hitam {
+    background-color: rgb(242, 244, 246);
+    color: rgb(145, 144, 144);
+}
+
+body.hitam header {
+    background-color: rgb(2, 56, 83);
+    padding-bottom: 40px;
+}
+
+body.hitam .switch {
+    float: right;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(229, 240, 240);
+    color: black;
+    cursor: pointer;
+}
+
+body.hitam p {
+    text-align: justify;
+    padding: 15px;
+    background-color: rgb(2, 56, 83);
+    border-radius: 0.3cm;
+    color: rgb(250, 248, 248);
+}
+
+body h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+body h2 {
+    text-align: center;
+}
+
+li {
+    font-size: 15px;
+}
+
+.html, .css, .java, .hilang, .soal2 {
+    display: none;
+}
+
+.list, h3 {
+    cursor: pointer;
+    border: 1px solid rgb(251, 254, 254);
+}
+
+.list {
+    width: 50px;
+}
